@@ -1,0 +1,26 @@
+# Site settings
+title: Emma Jang
+email: emmajang@sas.upenn.edu
+description:  Emma Jang is currently an undergraduate student at the University of Pennsylvania.
+baseurl: "/emmajg" # the subpath of your site, e.g. /blog
+url: "localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: emmajg
+github_username:  emmajang
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
